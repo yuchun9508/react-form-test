@@ -1,0 +1,33 @@
+.form {
+  width: 30%;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .15);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+.form-control.invalid {
+  border-color: tomato;
+}
+
+.error-message {
+  color: tomato;
+  font-size: .5rem;
+}
+
+button {
+  margin-top: 10px;
+}
